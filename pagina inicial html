@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Loja de Tênis</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        logo
+      </div>
+      <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Pesquisar">
+      </div>
+    </header>
+
+    <div class="menu-bar">
+        <button class="menu-button">NIKE</button>
+        <button class="menu-button">ADIDAS </button>
+        <button class="menu-button">PUMA</button>
+        <button class="menu-button">CONVERSE</button>
+        <button class="menu-button">FILA </button>
+    </div>
+
+  
+
+    <section class="shoes-section">
+      <div class="shoes-container">
+        <div class="shoe">
+          <img src="https://imgnike-a.akamaihd.net/1920x1920/0224057T.jpg" alt="Tênis 1">
+          <h3>Tênis Air Jordan 11 Retro Masculino</h3>
+          <p>R$ 1239,99</p>
+        </div>
+        <div class="shoe">
+          <img src="https://imgnike-a.akamaihd.net/1920x1920/023577ID.jpg" alt="Tênis 2">
+          <h3>AIR JORDAN 1 RETRO LOW OG EX</h3>
+          <p>R$ 909,99</p>
+        </div>
+        <div class="shoe">
+          <img src="https://imgcentauro-a.akamaihd.net/900x900/M0W8QN01/tenis-nike-air-jordan-xxxvii-low-adulto-img.jpg" alt="Tênis 3">
+          <h3>Tênis Nike Air Jordan XXXVII Low - Adulto</h3>
+          <p>R$ 1.699,99</p>
+        </div>
+      </div>
+    </section>
+    <!-- Restante do conteúdo da página -->
+  </div>
+</body>
+</html>
