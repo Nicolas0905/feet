@@ -1,28 +1,76 @@
 body {
-  font-family: 'Public Sans', sans-serif;
-  border: 3px solid black;
-  padding: 20px;
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
   margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #00bf63; 
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #666;
+}
+
+.about {
+  font-family: "Arial", sans-serif;
+}
+
+.about-text {
+  font-family: "Arial", sans-serif; 
 }
 
 .chewie {
+  font-family: "Public Sans", Arial, sans-serif; 
   font-size: 80px;
   text-align: center;
   margin-top: 20px;
+ 
 }
 
 .ee {
+  font-family:"29LT Baseed", Arial, sans-serif;
   color: #00bf63;
 }
 
-.antonio {
-  text-align: center;
-  margin-top: 20px;
-  font-size: 18px;
-}
-
-.carlos {
-  margin-top: 5px;
-  text-align: center;
-  font-size: 18px;
-}
